@@ -17,10 +17,11 @@ export default function TopUniversityPartners() {
   const swiperRef: MutableRefObject<swiperType | undefined> = useRef();
 
   return (
-    <section>
+    <section className="mt-[7rem]">
       {/* Heading */}
-      <h1 className="text-[2.5rem] font-semibold ml-11 sm:ml-32">
-        Our Top University Partners
+      <h1 className="text-[2.5rem] font-semibold mb-[2.8rem] text-center">
+        <span className="text-yellow-500">University</span>
+        <span className="text-blue-950"> Partners</span>
       </h1>
       {/* Navigation Button */}
       <div className="relative">

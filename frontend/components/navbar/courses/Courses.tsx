@@ -1,6 +1,5 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline"; // Import icons from Heroicons
-
-import Course from "@/components/navbar/courses/Course";
+import Course from "./Course";
 
 const Cources = () => {
   return (

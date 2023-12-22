@@ -1,7 +1,7 @@
-import Courses from "@/components/navbar/courses/Courses";
 import Logo from "@/components/navbar/Logo";
 import NavLink from "@/components/navbar/NavLink";
 import Link from "next/link";
+import Courses from "./courses/Courses";
 
 export const Navbar = () => {
   return (

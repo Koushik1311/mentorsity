@@ -13,3 +13,13 @@
     0.8
   ); /* Adjust the background color and opacity as needed */
 }
+
+.clip-right {
+  clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 50% 50%);
+}
+
+.sample-slider .swiper-pagination-bullet {
+  width: 200px;
+  height: 200px;
+  margin: 0 15px !important; /* added */
+}

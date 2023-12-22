@@ -24,7 +24,7 @@ const Course = () => {
   };
 
   return (
-    <div className="absolute pt-3 -left-28 bg-white drop-shadow-2xl">
+    <div className="absolute pt-3 -left-28 bg-white drop-shadow-2xl z-10">
       <div className="border-2 border-yellow-500 rounded-md hidden group-hover:block hover:block">
         {/* Heading */}
         <h1 className="font-lato text-xl px-4 py-4 border-b-2">

@@ -20,16 +20,16 @@ export default function AlumniProfile() {
   const swiperRef: MutableRefObject<swiperType | undefined> = useRef();
 
   return (
-    <section className="mt-10">
+    <section>
       {/* Heading */}
-      <h1 className="text-[2.5rem] font-semibold ml-11 sm:ml-32 mb-9">
-        Our Alumni Profiles
+      <h1 className="text-[2.5rem] text-blue-950 font-semibold mx-11 sm:mx-32 mb-[3.8rem] text-center">
+        Where Our <span className="text-yellow-500">Alumni</span> Work
       </h1>
       {/* Navigation Button */}
       <div className="relative">
         {/* Navigation Button Left */}
         <button
-          className="absolute top-16 sm:top-14 left-4 md:left-28"
+          className="absolute top-[5.5rem] left-0"
           onClick={() => {
             if (swiperRef.current) {
               swiperRef.current.slidePrev();
@@ -40,7 +40,7 @@ export default function AlumniProfile() {
         </button>
         {/* Navigation Button Right */}
         <button
-          className="absolute top-16 sm:top-14 right-4 md:right-28"
+          className="absolute top-[5.5rem] right-0"
           onClick={() => {
             if (swiperRef.current) {
               swiperRef.current.slideNext();
@@ -51,7 +51,7 @@ export default function AlumniProfile() {
         </button>
 
         {/* Crowsel: Our Alumni Profiles  */}
-        <div className="mx-16 sm:mx-40">
+        <div className="mx-16 sm:mx-16">
           <Swiper
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
